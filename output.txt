@@ -1,0 +1,246 @@
+Script started on Tue 04 Apr 2017 08:15:37 PM EDT
+bash-4.1$ uname -a
+Linux zeus-0 2.6.32-642.15.1.el6.x86_64 #1 SMP Fri Feb 24 14:31:22 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+bash-4.1$ dir
+NumberGrid.java  typescript
+bash-4.1$ javac NumberGrid.java 
+bash-4.1$ dir[K[K[Kdir
+Grid.class  Node.class	NumberGrid.class  NumberGrid.java  typescript  Value.class
+bash-4.1$ java NumberGrid.class [K[K[K[K[K[K[K
+
+Operations
+display           dis           assign cell       as
+fill              f             number            n
+add cells         a             subtract cells    s
+multiply cells    m             divide cells      d
+add rows          ar            subtract rows     sr
+multiply rows     mr            divide rows       dr
+add columns       ac            subtract columns  sc
+multiply  columns  mc            divide columns    dc
+insert row        ir            insert column     ic
+delete row        delr          delete column     delc
+quit              q
+-> n
+From
+row: 0
+column: 0
+To
+row: 9
+column: 5
+
+Operations
+display           dis           assign cell       as
+fill              f             number            n
+add cells         a             subtract cells    s
+multiply cells    m             divide cells      d
+add rows          ar            subtract rows     sr
+multiply rows     mr            divide rows       dr
+add columns       ac            subtract columns  sc
+multiply  columns  mc            divide columns    dc
+insert row        ir            insert column     ic
+delete row        delr          delete column     delc
+quit              q
+-> dis
+          col 0     col 1     col 2     col 3     col 4     col 5     
+row 0     0         1         2         3         4         5         
+row 1     6         7         8         9         10        11        
+row 2     12        13        14        15        16        17        
+row 3     18        19        20        21        22        23        
+row 4     24        25        26        27        28        29        
+row 5     30        31        32        33        34        35        
+row 6     36        37        38        39        40        41        
+row 7     42        43        44        45        46        47        
+row 8     48        49        50        51        52        53        
+row 9     54        55        56        57        58        59        
+
+Operations
+display           dis           assign cell       as
+fill              f             number            n
+add cells         a             subtract cells    s
+multiply cells    m             divide cells      d
+add rows          ar            subtract rows     sr
+multiply rows     mr            divide rows       dr
+add columns       ac            subtract columns  sc
+multiply  columns  mc            divide columns    dc
+insert row        ir            insert column     ic
+delete row        delr          delete column     delc
+quit              q
+-> delr
+Delete
+row: 1
+
+Operations
+display           dis           assign cell       as
+fill              f             number            n
+add cells         a             subtract cells    s
+multiply cells    m             divide cells      d
+add rows          ar            subtract rows     sr
+multiply rows     mr            divide rows       dr
+add columns       ac            subtract columns  sc
+multiply  columns  mc            divide columns    dc
+insert row        ir            insert column     ic
+delete row        delr          delete column     delc
+quit              q
+-> dis
+          col 0     col 1     col 2     col 3     col 4     col 5     
+row 0     0         1         2         3         4         5         
+row 1     12        13        14        15        16        17        
+row 2     18        19        20        21        22        23        
+row 3     24        25        26        27        28        29        
+row 4     30        31        32        33        34        35        
+row 5     36        37        38        39        40        41        
+row 6     42        43        44        45        46        47        
+row 7     48        49        50        51        52        53        
+row 8     54        55        56        57        58        59        
+
+Operations
+display           dis           assign cell       as
+fill              f             number            n
+add cells         a             subtract cells    s
+multiply cells    m             divide cells      d
+add rows          ar            subtract rows     sr
+multiply rows     mr            divide rows       dr
+add columns       ac            subtract columns  sc
+multiply  columns  mc            divide columns    dc
+insert row        ir            insert column     ic
+delete row        delr          delete column     delc
+quit              q
+-> f
+From
+row: 0
+column: 0
+To
+row: 2
+column: 3
+with value: "hello
+
+Operations
+display           dis           assign cell       as
+fill              f             number            n
+add cells         a             subtract cells    s
+multiply cells    m             divide cells      d
+add rows          ar            subtract rows     sr
+multiply rows     mr            divide rows       dr
+add columns       ac            subtract columns  sc
+multiply  columns  mc            divide columns    dc
+insert row        ir            insert column     ic
+delete row        delr          delete column     delc
+quit              q
+-> dis
+          col 0     col 1     col 2     col 3     col 4     col 5     
+row 0     hello     hello     hello     hello     4         5         
+row 1     hello     hello     hello     hello     16        17        
+row 2     hello     hello     hello     hello     22        23        
+row 3     24        25        26        27        28        29        
+row 4     30        31        32        33        34        35        
+row 5     36        37        38        39        40        41        
+row 6     42        43        44        45        46        47        
+row 7     48        49        50        51        52        53        
+row 8     54        55        56        57        58        59        
+
+Operations
+display           dis           assign cell       as
+fill              f             number            n
+add cells         a             subtract cells    s
+multiply cells    m             divide cells      d
+add rows          ar            subtract rows     sr
+multiply rows     mr            divide rows       dr
+add columns       ac            subtract columns  sc
+multiply  columns  mc            divide columns    dc
+insert row        ir            insert column     ic
+delete row        delr          delete column     delc
+quit              q
+-> ar
+First row
+row: 0
+Second row
+row: 3
+Destination row
+row: 4
+
+Operations
+display           dis           assign cell       as
+fill              f             number            n
+add cells         a             subtract cells    s
+multiply cells    m             divide cells      d
+add rows          ar            subtract rows     sr
+multiply rows     mr            divide rows       dr
+add columns       ac            subtract columns  sc
+multiply  columns  mc            divide columns    dc
+insert row        ir            insert column     ic
+delete row        delr          delete column     delc
+quit              q
+-> dis
+          col 0     col 1     col 2     col 3     col 4     col 5     
+row 0     hello     hello     hello     hello     4         5         
+row 1     hello     hello     hello     hello     16        17        
+row 2     hello     hello     hello     hello     22        23        
+row 3     24        25        26        27        28        29        
+row 4     30        31        32        33        32        34        
+row 5     36        37        38        39        40        41        
+row 6     42        43        44        45        46        47        
+row 7     48        49        50        51        52        53        
+row 8     54        55        56        57        58        59        
+
+Operations
+display           dis           assign cell       as
+fill              f             number            n
+add cells         a             subtract cells    s
+multiply cells    m             divide cells      d
+add rows          ar            subtract rows     sr
+multiply rows     mr            divide rows       dr
+add columns       ac            subtract columns  sc
+multiply  columns  mc            divide columns    dc
+insert row        ir            insert column     ic
+delete row        delr          delete column     delc
+quit              q
+-> mc
+First col
+column: 1
+Second col
+column: 4
+Destination col
+column: 5
+
+Operations
+display           dis           assign cell       as
+fill              f             number            n
+add cells         a             subtract cells    s
+multiply cells    m             divide cells      d
+add rows          ar            subtract rows     sr
+multiply rows     mr            divide rows       dr
+add columns       ac            subtract columns  sc
+multiply  columns  mc            divide columns    dc
+insert row        ir            insert column     ic
+delete row        delr          delete column     delc
+quit              q
+-> dis
+          col 0     col 1     col 2     col 3     col 4     col 5     
+row 0     hello     hello     hello     hello     4         5         
+row 1     hello     hello     hello     hello     16        17        
+row 2     hello     hello     hello     hello     22        23        
+row 3     24        25        26        27        28        700       
+row 4     30        31        32        33        32        992       
+row 5     36        37        38        39        40        1480      
+row 6     42        43        44        45        46        1978      
+row 7     48        49        50        51        52        2548      
+row 8     54        55        56        57        58        3190      
+
+Operations
+display           dis           assign cell       as
+fill              f             number            n
+add cells         a             subtract cells    s
+multiply cells    m             divide cells      d
+add rows          ar            subtract rows     sr
+multiply rows     mr            divide rows       dr
+add columns       ac            subtract columns  sc
+multiply  columns  mc            divide columns    dc
+insert row        ir            insert column     ic
+delete row        delr          delete column     delc
+quit              q
+-> q
+Powering off...
+bash-4.1$ exit
+exit
+\
+Script done on Tue 04 Apr 2017 08:28:14 PM EDT
